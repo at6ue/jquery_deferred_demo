@@ -1,23 +1,22 @@
-<head>
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-  <link href="base.css" rel="stylesheet">
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="base.css" rel="stylesheet" />
+  </head>
 
-<body>
-  <div class="box">
-    <label>Sample</label>
-    <select id="sample"></select>
-    <label>jQuery</label>
-    <select id="version"></select>
-    <button onclick="start()">RUN</button>
-    <button onclick="reset()">CLEAR</button>
-  </div>
-  <div class="box full">
-    <textarea id="code" placeholder="Code" readonly></textarea>
-    <textarea id="log" placeholder="Console" readonly></textarea>
-  </div>
-  <script src="app/core.js"></script>
-</body>
-
+  <body>
+    <div class="box">
+      <label>Sample</label>
+      <select id="sample"></select>
+      <label>jQuery</label>
+      <select id="version"></select>
+      <button onclick="start()">RUN</button>
+      <button onclick="reset()">CLEAR</button>
+    </div>
+    <div class="box full">
+      <textarea id="code" placeholder="Code" readonly></textarea>
+      <textarea id="log" placeholder="Console" readonly></textarea>
+    </div>
+    <script src="app/core.js"></script>
+  </body>
 </html>
