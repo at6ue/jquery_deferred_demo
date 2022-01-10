@@ -1,0 +1,33 @@
+html {
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1ex;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  column-gap: 1ch;
+}
+
+.full {
+  flex-grow: 1;
+}
+
+select {
+  padding: 0.5ex;
+  text-align: center;
+}
+
+button {
+  width: 5em;
+}
+
+textarea {
+  flex: 1;
+  resize: none;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "promise_vs_jquery_deferred",
+  "name": "jquery_deferred_demo",
   "author": "atti",
   "license": "MIT",
   "devDependencies": {
